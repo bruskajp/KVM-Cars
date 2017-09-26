@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-09-25" view-index="0" gantt-divider-location="551" resource-divider-location="300" version="2.8.5" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2017-09-03" view-index="0" gantt-divider-location="508" resource-divider-location="300" version="2.8.5" locale="en_US">
     <description/>
-    <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="Name" width="266" order="0"/>
-        <field id="tpd4" name="Begin date" width="141" order="1"/>
-        <field id="tpd5" name="End date" width="140" order="2"/>
-        <option id="taskLabelLeft" value="id"/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="373" order="0"/>
+        <field id="tpd4" name="Begin date" width="67" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
         <timeline><![CDATA[0]]></timeline>
     </view>
     <view id="resource-table">
@@ -56,7 +55,7 @@
         <task id="17" name="Milestone 1 Review" meeting="false" start="2017-09-15" duration="1" complete="100" expand="true">
             <depend id="18" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="18" name="CATME1" meeting="false" start="2017-09-16" duration="2" complete="100" expand="true">
+        <task id="18" name="CATME 1" meeting="false" start="2017-09-16" duration="2" complete="100" expand="true">
             <depend id="29" type="2" difference="0" hardness="Strong"/>
             <depend id="33" type="2" difference="0" hardness="Strong"/>
             <depend id="35" type="2" difference="0" hardness="Strong"/>
@@ -83,18 +82,23 @@
             <depend id="42" type="2" difference="0" hardness="Strong"/>
             <depend id="44" type="2" difference="0" hardness="Strong"/>
         </task>
+        <task id="132" name="Battery" meeting="false" start="2017-09-26" duration="1" complete="0" expand="true"/>
+        <task id="133" name="Voltage Regulator" color="#8cb6ce" meeting="false" start="2017-09-26" duration="3" complete="0" expand="true"/>
+        <task id="136" name="H-Bridge" color="#8cb6ce" meeting="false" start="2017-09-26" duration="3" complete="0" expand="true"/>
+        <task id="144" name="Board Attatchemtn and Power Wiring" color="#8cb6ce" meeting="false" start="2017-09-28" duration="6" complete="0" expand="true"/>
+        <task id="137" name="Linescan Camera Hardware Side" color="#8cb6ce" meeting="false" start="2017-09-28" duration="6" complete="0" expand="true"/>
+        <task id="141" name="CMUCam5 Pixy Camera Hardware Side" color="#8cb6ce" meeting="false" start="2017-09-28" duration="6" complete="0" expand="true"/>
         <task id="42" name="Mileston 2 Review" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true">
             <depend id="45" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="44" name="Demonstration" meeting="false" start="2017-09-29" duration="1" complete="0" expand="true">
             <depend id="45" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="45" name="CATME2" meeting="false" start="2017-09-30" duration="2" complete="0" expand="true">
+        <task id="45" name="CATME 2" meeting="false" start="2017-09-30" duration="2" complete="0" expand="true">
             <depend id="66" type="2" difference="0" hardness="Strong"/>
             <depend id="67" type="2" difference="0" hardness="Rubber"/>
             <depend id="70" type="2" difference="0" hardness="Rubber"/>
             <depend id="72" type="2" difference="0" hardness="Rubber"/>
-            <depend id="74" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="68" name="Bi-Weekly Progress Report 2" color="#8cb6ce" meeting="false" start="2017-09-23" duration="14" complete="0" expand="true">
             <depend id="79" type="2" difference="0" hardness="Strong"/>
@@ -105,8 +109,26 @@
         </task>
         <task id="70" name="In Lab Demo of Programs" color="#8cb6ce" meeting="false" start="2017-10-20" duration="1" complete="0" expand="true"/>
         <task id="72" name="Milestone 3 Review" color="#8cb6ce" meeting="false" start="2017-10-17" duration="15" complete="0" expand="true"/>
-        <task id="74" name="Copy_Test Plan for Phase 1" meeting="false" start="2017-10-02" duration="15" complete="0" expand="true"/>
         <task id="79" name="Bi-Weekly Progress Report 3" color="#8cb6ce" meeting="false" start="2017-10-07" duration="14" complete="0" expand="true"/>
+        <task id="80" name="CATME 3" color="#8cb6ce" meeting="false" start="2017-10-21" duration="2" complete="0" expand="true"/>
+        <task id="82" name="Phase 1 Design Complete and Tested According to Test Plan" meeting="false" start="2017-10-23" duration="8" complete="0" expand="true"/>
+        <task id="84" name="Phase 2 Detailed Design" meeting="false" start="2017-10-23" duration="8" complete="0" expand="true"/>
+        <task id="86" name="Test Plan for Phase 2" meeting="false" start="2017-10-23" duration="8" complete="0" expand="true"/>
+        <task id="89" name="In Lab demo of owrking Phase 1 Design" meeting="false" start="2017-11-02" duration="1" complete="0" expand="true"/>
+        <task id="91" name="In Lab Milestone Review and demo" meeting="false" start="2017-11-02" duration="1" complete="0" expand="true"/>
+        <task id="92" name="CATME 4" color="#8cb6ce" meeting="false" start="2017-11-02" duration="4" complete="0" expand="true"/>
+        <task id="94" name="Phase 2 Design Complete and Tested" color="#8cb6ce" meeting="false" start="2017-11-03" duration="11" complete="0" expand="true"/>
+        <task id="99" name="Plan for Performance Testing" color="#8cb6ce" meeting="false" start="2017-11-03" duration="11" complete="0" expand="true"/>
+        <task id="101" name="Revised Final Test Plan Complete" color="#8cb6ce" meeting="false" start="2017-11-03" duration="11" complete="0" expand="true"/>
+        <task id="110" name="In Lab Demo od Phase 2 Working" meeting="false" start="2017-11-16" duration="1" complete="0" expand="true"/>
+        <task id="112" name="Milestone 5 Review and Demo" meeting="false" start="2017-11-16" duration="1" complete="0" expand="true"/>
+        <task id="113" name="CATME 5" color="#8cb6ce" meeting="false" start="2017-11-17" duration="3" complete="0" expand="true"/>
+        <task id="115" name="Final Testing and Tuning before Competion" color="#8cb6ce" meeting="false" start="2017-11-17" duration="19" complete="0" expand="true"/>
+        <task id="121" name="Oral Presentation" color="#8cb6ce" meeting="false" start="2017-11-17" duration="19" complete="0" expand="true"/>
+        <task id="123" name="Design Poster and Presenation" color="#8cb6ce" meeting="false" start="2017-11-17" duration="19" complete="0" expand="true"/>
+        <task id="127" name="Video and Presenation" color="#8cb6ce" meeting="false" start="2017-11-17" duration="19" complete="0" expand="true"/>
+        <task id="119" name="Final Report and Hardware Returned" color="#8cb6ce" meeting="false" start="2017-11-17" duration="28" complete="0" expand="true"/>
+        <task id="130" name="CATME 6" color="#8cb6ce" meeting="false" start="2017-12-14" duration="2" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
