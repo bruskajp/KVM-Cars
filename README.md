@@ -1,2 +1,2 @@
-# KVM-Cars-EE416
-The Clarkson EE416 Project.
+# KVM-Cars
+ An autonomous car system design and implementation
